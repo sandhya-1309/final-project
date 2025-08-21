@@ -1,0 +1,72 @@
+/* ##### media #### */
+
+@media (max-width: 1199px) {
+    .container{
+        max-width: 960px !important;
+
+}
+}
+
+@media (max-width:991px) {
+    .container{
+        max-width: 720px !important;
+    }
+
+    .col-l-12{
+        width: 100% !important;
+    }
+
+    .col-l-6{
+        width: 50% !important;
+    }
+
+    .main-contant{
+        text-align: center;
+    }
+
+    header{
+        background-color: var(--t-blue);
+    
+    }
+    header nav{
+        display: none !important;
+    }
+    header nav + div.menu-icon{
+        display: block !important;
+    }
+
+    .reservation .reservation-img{
+        height: 600px;
+    }
+    .team .team-members .member-card{
+        height: calc(100% - 18%);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 540px !important;
+    }
+
+     .col-l-12{
+        width: 100% !important;
+    }
+
+    .col-l-6{
+        width: 50% !important;
+    }
+
+}
+
+@media (max-width: 547px) {
+    .container{
+        max-width: 100% !important;
+    }
+
+       .col-s-12{
+        width: 100% !important;
+    }
+
+    
+}

@@ -57,6 +57,10 @@
         width: 50% !important;
     }
 
+    footer .footer-bottom ul{
+        padding: 16px 0 !important;
+    }
+
 }
 
 @media (max-width: 547px) {

@@ -553,6 +553,10 @@ main .main-pic {
 }
 
 /* #### client-review #### */
+.client-review{
+    margin-bottom: 80px;
+}
+
 .client-review h5 {
     color: var(--orange-800);
     font-size: 20px;
@@ -625,7 +629,7 @@ main .main-pic {
 /* #### footer #### */
 
 .footer-container {
-    margin: 48px;
+    /* margin: 48px; */
     padding: 24px;
     background-color: var(--t-blue);
     color: var(--white);
@@ -705,4 +709,37 @@ main .main-pic {
     top: 4px;
     right: 6px;
     background-color: var(--orange-800);
+}
+
+/* ##### footer bottom  #### */
+footer .footer-bottom {
+   padding: 25px 0;
+   justify-content: space-between !important;
+}
+
+footer .footer-bottom p {
+   line-height: 2.5;
+   text-align: left;
+   color: var(--white);
+}
+
+
+footer .footer-bottom ul {
+   /* justify-content: right; */
+   text-align: right;
+   padding-left: 250px;
+}
+
+footer .footer-bottom ul a {
+   border-right: 1px solid rgba(255, 255, 255, .1);
+   margin-right: 15px;
+   padding-right: 15px;
+   height: 16px;
+   align-items: center;
+}
+
+footer .footer-bottom ul a:last-child {
+   margin-right: 0;
+   padding-right: 0;
+   border: none;
 }
